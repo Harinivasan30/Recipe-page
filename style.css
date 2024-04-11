@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap')
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 18%, 87%);
+}
+
+.recipe
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 5%;
+    
+}
+.container
+{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    z-index: -1;
+    background-color:  hsl(0, 0%, 100%);
+
+}
+.container h1
+{
+    color: hsl(14, 45%, 36%);
+}
+.container p
+{
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+/* list class */
+.list
+{
+    padding: 10px;
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 20px;
+}
+.list h3{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+}
+.list ul li
+{
+    padding: 5px;
+}
+/* list-2 */
+.list-2 h2
+{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+}
+.list-2  li
+{
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+}
+/* Instruction */
+.instruction h2
+{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+}
+.instruction ol li 
+{
+    color: hsl(30, 10%, 34%) ;
+    padding: 5px;
+}
+/* Nutrition */
+.table h2
+{
+    color: hsl(14, 45%, 36%);
+    margin: 20px;
+ 
+}
+.table p
+{
+    color: hsl(30, 10%, 34%);
+    margin: 20px;
+}
+/* tables */
+#tables 
+{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    max-width: 250px;
+    padding: 10px;
+}
+#tables h4
+{
+    color: hsl(14, 45%, 36%);
+
+}
+hr
+{
+    color: hsl(330, 100%, 98%);
+}
+
+.container img
+{
+    width: 650px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .recipe
+    {
+        width: 1440px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .container
+    {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .container img{
+        width: 375px;
+        margin: 0 auto;
+    }
+    
+}
